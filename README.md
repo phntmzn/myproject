@@ -1,4 +1,3 @@
-Here’s a complete `README.md` tailored for your **macOS Python/C++ hybrid app**, including build, install, and uninstall instructions:
 
 ---
 
@@ -8,8 +7,6 @@ Here’s a complete `README.md` tailored for your **macOS Python/C++ hybrid app*
 # myproject
 
 A hybrid macOS app that combines PyTorch-based machine learning with native C++ libraries. Built for deployment via signed `.pkg` installers, with LaunchAgent integration for background execution.
-
----
 
 ## 🚀 Features
 
@@ -125,3 +122,5 @@ myproject/
 ```
 
 ---
+---
+
