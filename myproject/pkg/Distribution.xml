@@ -1,0 +1,21 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+  <title>MyProject Installer</title>
+  <license file="License.txt"/>
+  <background file="background.png" alignment="bottomleft"/>
+  <welcome file="welcome.html"/>
+  <conclusion file="conclusion.html"/>
+
+  <options customize="never" require-scripts="false"/>
+
+  <domains enable_anywhere="true"/>
+
+  <installation-check script="scripts/preinstall.sh"/>
+
+  <pkg-ref id="com.myorg.myproject"/>
+  <pkg-ref id="com.myorg.myproject" installKBytes="1024" version="1.0.0">
+    myproject.pkg
+  </pkg-ref>
+</installer-gui-script>

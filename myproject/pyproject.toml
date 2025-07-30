@@ -1,0 +1,19 @@
+
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myproject"
+version = "0.1.0"
+description = "A Python-C++ hybrid project with PyTorch and ctypes/pybind11 integration"
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "torch",
+    "numpy"
+]
+requires-python = ">=3.8"
